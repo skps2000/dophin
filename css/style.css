@@ -390,7 +390,7 @@ ul.btn li:last-child {
      align-items: center;
      position: relative;
 }
-.banner_main::before {
+/* .banner_main::before {
      position: absolute;
      content: "";
      width:50px; 
@@ -399,8 +399,8 @@ ul.btn li:last-child {
      background-repeat: no-repeat;
      bottom: -38px;
      right: 38px;
-}
-.banner_main::after {
+} */
+/* .banner_main::after {
      position: absolute;
      content: "";
      width:50px; 
@@ -409,7 +409,7 @@ ul.btn li:last-child {
      background-repeat: no-repeat;
      bottom: -38px;
      left: 38px;
-}
+} */
 .text-bg {
      text-align: left;
 }
@@ -417,6 +417,14 @@ ul.btn li:last-child {
 .text-bg h1 {
      color: #fff;
      font-size: 81px;
+     line-height: 80px;
+     padding-bottom: 45px;
+     font-weight: bold;
+}
+
+.text-bg h2 {
+     color: #fff;
+     font-size: 40px;
      line-height: 80px;
      padding-bottom: 45px;
      font-weight: bold;
@@ -562,6 +570,7 @@ ul.btn li:last-child {
 .three_box {
      background-color: #fff;
      padding-top: 90px;
+     padding-bottom: 90px;
 }
 
 .box_text {
